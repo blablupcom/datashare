@@ -85,12 +85,11 @@ def convert_mth_strings ( mth_string ):
 #### VARIABLES 1.0
 
 entity_id = "datashare"
-urls = [
-    # "http://data.peterborough.gov.uk/api/commercial-activities/transparency-code-payments-over-500",
-    #     "http://data.n-somerset.gov.uk/api/finance/north-somerset-council-spend-over-250",
-    #     "http://data.bracknell-forest.gov.uk/api/finance/payments-over-500",
-    #     "http://data.hounslow.gov.uk/api/finance-and-assets/council-spending-over-500",
-        "http://datashare.blackburn.gov.uk/api/expenditure-exceeding-500"]
+urls = [ "http://data.peterborough.gov.uk/api/commercial-activities/transparency-code-payments-over-500",
+         "http://data.n-somerset.gov.uk/api/finance/north-somerset-council-spend-over-250",
+         "http://data.bracknell-forest.gov.uk/api/finance/payments-over-500",
+         "http://data.hounslow.gov.uk/api/finance-and-assets/council-spending-over-500",
+         "http://datashare.blackburn.gov.uk/api/expenditure-exceeding-500"]
 errors = 0
 data = []
 url="http://example.com"
